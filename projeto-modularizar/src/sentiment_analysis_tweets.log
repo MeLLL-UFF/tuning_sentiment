@@ -1,0 +1,1633 @@
+INFO:__main__:Lendo parametros
+INFO:gensim.models.utils_any2vec:loading projection weights from /estudo_orientado/static_embeddings/GoogleNews-vectors-negative300.bin
+INFO:gensim.models.utils_any2vec:loaded (3000000, 300) matrix from /estudo_orientado/static_embeddings/GoogleNews-vectors-negative300.bin
+INFO:__main__:Carregando dados
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set HCR
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: HCR, (1908, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/HCR:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/HCR:         18s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/HCR:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/HCR:         13s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/HCR:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/HCR:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/HCR:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/HCR:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/HCR:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/HCR:         21s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/HCR:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/HCR:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/HCR:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/HCR:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/HCR:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/HCR:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/HCR:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/HCR:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/HCR:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/HCR:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/HCR:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/HCR:         25s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/HCR:         59s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/HCR:         59s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/HCR:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/HCR:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/HCR:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/HCR:         18s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset HCR
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration HCR:        223s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set Narr-KDML-2012
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: Narr-KDML-2012, (1227, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/Narr-KDML-2012:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/Narr-KDML-2012:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/Narr-KDML-2012:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/Narr-KDML-2012:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/Narr-KDML-2012:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/Narr-KDML-2012:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/Narr-KDML-2012:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/Narr-KDML-2012:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/Narr-KDML-2012:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/Narr-KDML-2012:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/Narr-KDML-2012:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/Narr-KDML-2012:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/Narr-KDML-2012:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/Narr-KDML-2012:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/Narr-KDML-2012:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/Narr-KDML-2012:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/Narr-KDML-2012:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/Narr-KDML-2012:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/Narr-KDML-2012:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/Narr-KDML-2012:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/Narr-KDML-2012:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/Narr-KDML-2012:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/Narr-KDML-2012:         18s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/Narr-KDML-2012:         18s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/Narr-KDML-2012:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/Narr-KDML-2012:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/Narr-KDML-2012:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/Narr-KDML-2012:         13s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset Narr-KDML-2012
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Narr-KDML-2012:        109s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set STS-gold
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: STS-gold, (2034, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/STS-gold:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/STS-gold:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/STS-gold:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/STS-gold:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/STS-gold:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/STS-gold:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/STS-gold:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/STS-gold:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/STS-gold:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/STS-gold:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/STS-gold:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/STS-gold:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/STS-gold:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/STS-gold:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/STS-gold:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/STS-gold:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/STS-gold:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/STS-gold:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/STS-gold:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/STS-gold:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/STS-gold:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/STS-gold:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/STS-gold:         31s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/STS-gold:         32s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/STS-gold:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/STS-gold:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/STS-gold:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/STS-gold:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset STS-gold
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration STS-gold:        174s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set SemEval13
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: SemEval13, (4378, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/SemEval13:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/SemEval13:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/SemEval13:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/SemEval13:         29s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/SemEval13:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/SemEval13:         20s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/SemEval13:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/SemEval13:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/SemEval13:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/SemEval13:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/SemEval13:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/SemEval13:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/SemEval13:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/SemEval13:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/SemEval13:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/SemEval13:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/SemEval13:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/SemEval13:         21s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/SemEval13:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/SemEval13:         18s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/SemEval13:         28s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/SemEval13:         47s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/SemEval13:        235s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/SemEval13:        235s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/SemEval13:         25s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/SemEval13:         43s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/SemEval13:         24s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/SemEval13:         36s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset SemEval13
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SemEval13:        542s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set SemEval15-Task11
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: SemEval15-Task11, (321, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/SemEval15-Task11:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/SemEval15-Task11:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/SemEval15-Task11:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/SemEval15-Task11:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/SemEval15-Task11:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/SemEval15-Task11:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/SemEval15-Task11:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/SemEval15-Task11:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/SemEval15-Task11:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/SemEval15-Task11:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/SemEval15-Task11:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/SemEval15-Task11:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/SemEval15-Task11:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/SemEval15-Task11:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/SemEval15-Task11:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset SemEval15-Task11
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SemEval15-Task11:         48s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set SemEval16
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: SemEval16, (12216, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/SemEval16:         52s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/SemEval16:         75s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/SemEval16:         53s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/SemEval16:         85s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/SemEval16:         33s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/SemEval16:         54s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/SemEval16:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/SemEval16:         28s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/SemEval16:         31s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/SemEval16:         57s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/SemEval16:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/SemEval16:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/SemEval16:         13s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/SemEval16:         24s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/SemEval16:         28s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/SemEval16:         50s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/SemEval16:         30s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/SemEval16:         54s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/SemEval16:         29s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/SemEval16:         47s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/SemEval16:         71s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/SemEval16:        116s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/SemEval16:        520s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/SemEval16:        521s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/SemEval16:         75s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/SemEval16:        120s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/SemEval16:         80s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/SemEval16:        119s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset SemEval16
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SemEval16:       1365s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set SemEval17-test
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: SemEval17-test, (6347, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/SemEval17-test:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/SemEval17-test:         27s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/SemEval17-test:         23s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/SemEval17-test:         37s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/SemEval17-test:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/SemEval17-test:         26s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/SemEval17-test:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/SemEval17-test:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/SemEval17-test:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/SemEval17-test:         25s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/SemEval17-test:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/SemEval17-test:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/SemEval17-test:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/SemEval17-test:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/SemEval17-test:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/SemEval17-test:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/SemEval17-test:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/SemEval17-test:         25s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/SemEval17-test:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/SemEval17-test:         24s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/SemEval17-test:         34s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/SemEval17-test:         55s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/SemEval17-test:        211s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/SemEval17-test:        211s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/SemEval17-test:         35s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/SemEval17-test:         59s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/SemEval17-test:         36s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/SemEval17-test:         60s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset SemEval17-test
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SemEval17-test:        608s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set SemEval18
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: SemEval18, (1859, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/SemEval18:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/SemEval18:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/SemEval18:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/SemEval18:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/SemEval18:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/SemEval18:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/SemEval18:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/SemEval18:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/SemEval18:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/SemEval18:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/SemEval18:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/SemEval18:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/SemEval18:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/SemEval18:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/SemEval18:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/SemEval18:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/SemEval18:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/SemEval18:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/SemEval18:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/SemEval18:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/SemEval18:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/SemEval18:         21s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/SemEval18:         40s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/SemEval18:         40s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/SemEval18:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/SemEval18:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/SemEval18:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/SemEval18:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset SemEval18
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SemEval18:        180s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set SentiStrength
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: SentiStrength, (2289, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/SentiStrength:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/SentiStrength:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/SentiStrength:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/SentiStrength:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/SentiStrength:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/SentiStrength:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/SentiStrength:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/SentiStrength:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/SentiStrength:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/SentiStrength:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/SentiStrength:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/SentiStrength:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/SentiStrength:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/SentiStrength:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/SentiStrength:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/SentiStrength:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/SentiStrength:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/SentiStrength:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/SentiStrength:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/SentiStrength:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/SentiStrength:         13s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/SentiStrength:         21s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/SentiStrength:         55s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/SentiStrength:         56s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/SentiStrength:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/SentiStrength:         20s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/SentiStrength:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/SentiStrength:         24s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset SentiStrength
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SentiStrength:        224s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set Target-dependent
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: Target-dependent, (3467, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/Target-dependent:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/Target-dependent:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/Target-dependent:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/Target-dependent:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/Target-dependent:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/Target-dependent:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/Target-dependent:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/Target-dependent:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/Target-dependent:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/Target-dependent:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/Target-dependent:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/Target-dependent:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/Target-dependent:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/Target-dependent:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/Target-dependent:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/Target-dependent:         13s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/Target-dependent:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/Target-dependent:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/Target-dependent:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/Target-dependent:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/Target-dependent:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/Target-dependent:         30s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/Target-dependent:         78s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/Target-dependent:         79s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/Target-dependent:         20s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/Target-dependent:         33s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/Target-dependent:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/Target-dependent:         29s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset Target-dependent
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Target-dependent:        311s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set VADER
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: VADER, (4196, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/VADER:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/VADER:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/VADER:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/VADER:         23s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/VADER:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/VADER:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/VADER:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/VADER:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/VADER:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/VADER:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/VADER:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/VADER:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/VADER:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/VADER:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/VADER:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/VADER:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/VADER:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/VADER:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/VADER:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/VADER:         14s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/VADER:         21s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/VADER:         35s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/VADER:        108s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/VADER:        109s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/VADER:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/VADER:         40s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/VADER:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/VADER:         35s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset VADER
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration VADER:        364s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set archeage
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: archeage, (1718, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/archeage:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/archeage:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/archeage:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/archeage:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/archeage:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/archeage:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/archeage:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/archeage:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/archeage:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/archeage:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/archeage:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/archeage:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/archeage:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/archeage:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/archeage:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/archeage:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/archeage:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/archeage:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/archeage:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/archeage:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/archeage:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/archeage:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/archeage:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/archeage:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/archeage:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/archeage:         15s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/archeage:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/archeage:         13s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset archeage
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration archeage:        139s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set debate08
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: debate08, (1906, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/debate08:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/debate08:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/debate08:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/debate08:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/debate08:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/debate08:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/debate08:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/debate08:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/debate08:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/debate08:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/debate08:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/debate08:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/debate08:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/debate08:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/debate08:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/debate08:         12s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/debate08:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/debate08:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/debate08:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/debate08:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/debate08:          9s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/debate08:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/debate08:         29s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/debate08:         29s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/debate08:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/debate08:         17s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/debate08:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/debate08:         16s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset debate08
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration debate08:        163s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set hobbit
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: hobbit, (522, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/hobbit:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/hobbit:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/hobbit:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/hobbit:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/hobbit:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/hobbit:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/hobbit:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/hobbit:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/hobbit:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/hobbit:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/hobbit:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/hobbit:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/hobbit:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/hobbit:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/hobbit:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/hobbit:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/hobbit:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/hobbit:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/hobbit:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/hobbit:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/hobbit:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/hobbit:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/hobbit:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/hobbit:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/hobbit:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/hobbit:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/hobbit:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/hobbit:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset hobbit
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration hobbit:         58s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set iphone
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: iphone, (532, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/iphone:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/iphone:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/iphone:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/iphone:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/iphone:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/iphone:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/iphone:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/iphone:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/iphone:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/iphone:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/iphone:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/iphone:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/iphone:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/iphone:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/iphone:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/iphone:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/iphone:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/iphone:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset iphone
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration iphone:         61s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set irony
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: irony, (65, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/irony:          0s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/irony:          0s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/irony:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/irony:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/irony:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset irony
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration irony:         19s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set movie
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: movie, (561, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/movie:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/movie:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/movie:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/movie:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/movie:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/movie:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/movie:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/movie:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/movie:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/movie:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/movie:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/movie:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/movie:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/movie:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/movie:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/movie:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/movie:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/movie:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/movie:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/movie:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/movie:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/movie:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/movie:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/movie:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/movie:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/movie:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/movie:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/movie:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset movie
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration movie:         63s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set ntua
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: ntua, (278, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/ntua:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/ntua:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/ntua:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/ntua:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/ntua:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/ntua:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/ntua:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/ntua:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/ntua:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/ntua:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset ntua
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration ntua:         44s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set person
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: person, (439, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/person:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/person:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/person:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/person:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/person:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/person:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/person:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/person:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/person:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/person:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/person:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/person:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/person:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/person:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/person:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/person:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/person:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset person
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration person:         58s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set sanders
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: sanders, (1224, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/sanders:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/sanders:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/sanders:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/sanders:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/sanders:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/sanders:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/sanders:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/sanders:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/sanders:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/sanders:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/sanders:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/sanders:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/sanders:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/sanders:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/sanders:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/sanders:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/sanders:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/sanders:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/sanders:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/sanders:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/sanders:          8s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/sanders:         13s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/sanders:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/sanders:         22s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/sanders:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/sanders:         10s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/sanders:          7s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/sanders:         11s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset sanders
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration sanders:        109s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set sarcasm
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: sarcasm, (71, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/sarcasm:          0s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/sarcasm:          0s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/sarcasm:          0s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/sarcasm:          1s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/sarcasm:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/sarcasm:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/sarcasm:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/sarcasm:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/sarcasm:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/sarcasm:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/sarcasm:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/sarcasm:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset sarcasm
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration sarcasm:         21s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Iniciando experimento com data set sentiment140
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:---------------------- FULL Dataset: sentiment140, (359, 2)------------------
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VEdin/sentiment140:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VEdin/sentiment140:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2VAraque/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2VAraque/sentiment140:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveWP/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveWP/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/GloveTW/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration GloveTW/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/FastText/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration FastText/sentiment140:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/SSWE/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration SSWE/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Emo2Vec/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Emo2Vec/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/DeepMoji/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration DeepMoji/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/EWE/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration EWE/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/W2V-GN/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration W2V-GN/sentiment140:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Roberta: roberta-base / STATIC_AVG/sentiment140:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Roberta: roberta-base / STATIC_AVG/sentiment140:          6s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/TFIDF/sentiment140:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration TFIDF/sentiment140:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/Bert: bert-base-uncased / STATIC_AVG/sentiment140:          4s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration Bert: bert-base-uncased / STATIC_AVG/sentiment140:          5s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:
+Cross Validation on XGboost
+
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration XGboost/BERTweet_base_transformers_STATIC/sentiment140:          2s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration BERTweet_base_transformers_STATIC/sentiment140:          3s
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Finalizado experimento com dataset sentiment140
+INFO:uff.ic.mell.sentimentembedding.classificadores.analisador:Duration sentiment140:         50s

@@ -1,0 +1,3527 @@
+inputFile: /estudo_orientado//sentiment-embeddings/projeto-modularizar/inputs/dataset_consolidado_ppbase_2.csv, outputDir: /estudo_orientado//sentiment-embeddings/projeto-modularizar/outputs/staticXgbLM, modelDir: BERTweet_base_transformers outputfilePrefix staticXgbLM LM Static Token: BERTweet_base_transformers
+iniciando...
+Entrou...
+                         1             2    ...           255           256
+0                                           ...                            
+CUSTOM_MASK    -9.361267e-31  4.320630e-30  ... -4.968087e-30  5.698469e-30
+CUSTOM_UNKNOWN -2.010868e-01  3.422054e-02  ...  1.772957e-02 -4.393287e-02
+CUSTOM_AT       4.105147e-03  1.115422e-02  ...  7.782815e-02  2.606803e-02
+CUSTOM_URL     -1.212749e-01  3.365680e-02  ...  7.298148e-02 -1.205083e-01
+CUSTOM_NUMBER  -4.298694e-01 -5.139165e-02  ... -1.541566e-01 -4.310964e-03
+
+[5 rows x 256 columns]
+            0         1         2    ...       397       398       399
+400                                  ...                              
+</s>   0.069113  0.076308 -0.066136  ...  0.004719  0.013906 -0.046325
+@user  0.048550 -0.017107  0.014391  ...  0.008454 -0.002596 -0.099210
+.     -0.109767  0.019522  0.013738  ...  0.107962  0.009579 -0.061386
+the   -0.098333  0.048037 -0.023734  ...  0.030980  0.063073 -0.024123
+i     -0.118264  0.050860 -0.054890  ...  0.035691 -0.026911  0.007437
+
+[5 rows x 400 columns]
+           1         2         3    ...       498       499       500
+0                                   ...                              
+.     0.172092 -0.048756  0.082688  ... -0.101353  0.077546  0.057356
+user  0.025390 -0.006732  0.123872  ...  0.110230  0.063042 -0.030130
+i    -0.061424 -0.037913  0.180941  ...  0.003061  0.081968  0.024677
+!     0.001179 -0.041633  0.030564  ...  0.116383  0.071756  0.092244
+to    0.080043 -0.213082 -0.012314  ... -0.158013  0.055799 -0.007564
+
+[5 rows x 500 columns]
+          1         2         3    ...       298       299       300
+0                                  ...                              
+the  0.046560  0.213180 -0.007436  ...  0.009061 -0.209890  0.053913
+,   -0.255390 -0.257230  0.131690  ... -0.232900 -0.122260  0.354990
+.   -0.125590  0.013630  0.103060  ... -0.342240 -0.022394  0.136840
+of  -0.076947 -0.021211  0.212710  ...  0.183510 -0.291830 -0.046533
+to  -0.257560 -0.057132 -0.671900  ... -0.160430  0.046744 -0.070621
+
+[5 rows x 300 columns]
+            1         2         3    ...       198       199      200
+0                                    ...                             
+<user>  0.31553  0.537650  0.101770  ... -0.456640 -0.465400  0.52066
+.       0.35132  0.000561 -0.214880  ...  0.036684 -0.037206  0.85384
+:       0.80767  0.497860  0.082696  ... -0.073302 -0.477850  0.67059
+rt      0.55687  0.632840 -0.156090  ...  0.238570 -0.792350  0.23761
+,       0.39270 -0.084181 -0.607500  ...  0.093868 -0.585060  0.19544
+
+[5 rows x 200 columns]
+        1       2       3       4    ...     297     298     299     300
+0                                    ...                                
+,    0.1073  0.0089  0.0006  0.0055  ...  0.0186  0.0050  0.1173 -0.0400
+the  0.0897  0.0160 -0.0571  0.0405  ...  0.0591  0.1559 -0.0254 -0.0259
+.    0.0004  0.0032 -0.0204  0.0479  ...  0.0290  0.2070  0.0689 -0.0467
+and -0.0314  0.0149 -0.0205  0.0557  ...  0.0267  0.0980  0.0893  0.0148
+of  -0.0063 -0.0253 -0.0338  0.0178  ...  0.0088  0.1155  0.0073  0.0168
+
+[5 rows x 300 columns]
+             1         2         3   ...        48        49        50
+0                                    ...                              
+<unk> -0.578815  0.925568  0.464888  ...  1.381008 -0.740416  1.558096
+<s>   -1.260060  0.492052 -5.803450  ...  3.227136 -0.246583 -0.957653
+</s>   0.057440 -0.235375 -0.115863  ...  0.054876  0.231341 -0.293584
+:(     0.961177  3.360412 -0.175983  ... -2.279852 -1.767463 -5.461819
+i      1.094848  0.801766 -1.292882  ...  0.733491 -2.330193  0.305357
+
+[5 rows x 50 columns]
+             1         2         3    ...       98        99        100
+0                                     ...                              
+UNK    -0.535942  0.241855 -0.224118  ...  0.116272 -0.248966  0.601683
+PAD     0.070041  0.000385 -0.022375  ... -0.632665 -0.016731 -0.008954
+<user>  0.140115  0.645263 -0.760489  ... -1.330164 -0.202338 -0.228831
+.       0.192838  0.057592 -0.062978  ... -1.120837 -0.269044  0.137171
+:       0.254638 -0.796996 -0.692078  ...  0.731651  0.062871  0.169335
+
+[5 rows x 100 columns]
+          1         2         3    ...       298       299       300
+0                                  ...                              
+the -0.193682 -0.152885  0.007644  ... -0.539710  0.212540  0.001292
+and -0.080430 -0.260765 -0.330572  ... -0.364723 -0.090796  0.391755
+i   -0.031085 -0.191804 -0.128438  ...  0.094401  0.103395  0.094932
+to  -0.233014 -0.448184  0.051642  ...  0.052464  0.153408 -0.372703
+a   -0.011401  0.793292 -0.494033  ...  0.018762 -0.310064 -0.351996
+
+[5 rows x 300 columns]
+
+ /estudo_orientado//sentiment-embeddings/projeto-modularizar/inputs/dataset_consolidado_ppbase_2.csv 
+
+Data sets Dataloader:  ['HCR' 'Narr-KDML-2012' 'STS-gold' 'SemEval13' 'SemEval15-Task11'
+ 'SemEval16' 'SemEval17-test' 'SemEval18' 'SentiStrength'
+ 'Target-dependent' 'VADER' 'archeage' 'debate08' 'hobbit' 'iphone'
+ 'irony' 'movie' 'ntua' 'person' 'sanders' 'sarcasm' 'sentiment140']
+imprimindo dataset names...
+['HCR', 'Narr-KDML-2012', 'STS-gold', 'SemEval13', 'SemEval15-Task11', 'SemEval16', 'SemEval17-test', 'SemEval18', 'SentiStrength', 'Target-dependent', 'VADER', 'archeage', 'debate08', 'hobbit', 'iphone', 'irony', 'movie', 'ntua', 'person', 'sanders', 'sarcasm', 'sentiment140']
+Datasets já processados:  []
+---------------------- FULL Dataset: HCR, (1908, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 72.22
+f1_macro: 58.58
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 75.36
+f1_macro: 61.49
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 76.36
+f1_macro: 64.37
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 71.07
+f1_macro: 59.15
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 76.99
+f1_macro: 65.49
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 71.69
+f1_macro: 57.26
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 75.26
+f1_macro: 63.49
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 76.57
+f1_macro: 64.4
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 77.41
+f1_macro: 66.73
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 78.93
+f1_macro: 69.14
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 78.98
+f1_macro: 69.19
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 78.93
+f1_macro: 71.02
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 77.72
+f1_macro: 67.54
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 76.26
+f1_macro: 63.32
+Duration HCR:        223s
+---------------------- FULL Dataset: Narr-KDML-2012, (1227, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 60.96
+f1_macro: 56.95
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 81.09
+f1_macro: 80.0
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 80.2
+f1_macro: 79.02
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 57.86
+f1_macro: 51.98
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 81.08
+f1_macro: 79.66
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 72.71
+f1_macro: 71.28
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 87.78
+f1_macro: 87.16
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 85.9
+f1_macro: 85.15
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 83.05
+f1_macro: 81.93
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 82.72
+f1_macro: 81.72
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 81.1
+f1_macro: 79.73
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 77.6
+f1_macro: 76.49
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.55
+f1_macro: 77.96
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 75.88
+f1_macro: 73.77
+Duration Narr-KDML-2012:        109s
+---------------------- FULL Dataset: STS-gold, (2034, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 69.18
+f1_macro: 58.41
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 84.96
+f1_macro: 81.37
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 81.81
+f1_macro: 77.0
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 67.01
+f1_macro: 55.25
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 84.07
+f1_macro: 79.72
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 73.3
+f1_macro: 66.14
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 86.92
+f1_macro: 84.42
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 86.09
+f1_macro: 82.73
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 83.88
+f1_macro: 79.74
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 83.97
+f1_macro: 79.78
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 81.32
+f1_macro: 75.01
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 81.61
+f1_macro: 76.91
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 81.12
+f1_macro: 75.02
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 77.83
+f1_macro: 69.28
+Duration STS-gold:        174s
+---------------------- FULL Dataset: SemEval13, (4378, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 72.27
+f1_macro: 56.59
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 79.58
+f1_macro: 71.18
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 79.26
+f1_macro: 70.13
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 70.15
+f1_macro: 54.05
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 80.4
+f1_macro: 71.94
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 76.79
+f1_macro: 66.62
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 87.83
+f1_macro: 84.35
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 81.68
+f1_macro: 74.7
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 80.45
+f1_macro: 71.78
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 81.02
+f1_macro: 72.81
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.95
+f1_macro: 70.23
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 78.8
+f1_macro: 68.47
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.19
+f1_macro: 68.52
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 77.23
+f1_macro: 63.52
+Duration SemEval13:        542s
+---------------------- FULL Dataset: SemEval15-Task11, (321, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 84.43
+f1_macro: 56.44
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 87.23
+f1_macro: 57.46
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 86.6
+f1_macro: 56.34
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 83.17
+f1_macro: 50.87
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 85.05
+f1_macro: 48.79
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 85.36
+f1_macro: 60.73
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 86.3
+f1_macro: 63.75
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 87.24
+f1_macro: 63.28
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 86.31
+f1_macro: 56.35
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 85.36
+f1_macro: 51.77
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 86.91
+f1_macro: 60.93
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 88.78
+f1_macro: 72.27
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 86.92
+f1_macro: 62.95
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 85.98
+f1_macro: 55.91
+Duration SemEval15-Task11:         48s
+---------------------- FULL Dataset: SemEval16, (12216, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 74.9
+f1_macro: 61.52
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 81.01
+f1_macro: 73.62
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 83.46
+f1_macro: 77.17
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 71.35
+f1_macro: 52.16
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 84.96
+f1_macro: 79.33
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 75.88
+f1_macro: 65.14
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 84.09
+f1_macro: 79.04
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 82.29
+f1_macro: 75.97
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 84.29
+f1_macro: 78.33
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 84.31
+f1_macro: 78.67
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 83.54
+f1_macro: 76.84
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 83.47
+f1_macro: 76.43
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 82.33
+f1_macro: 75.1
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 79.64
+f1_macro: 69.86
+Duration SemEval16:       1365s
+---------------------- FULL Dataset: SemEval17-test, (6347, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 71.15
+f1_macro: 68.14
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 82.07
+f1_macro: 80.09
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 85.05
+f1_macro: 83.75
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 66.05
+f1_macro: 59.37
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 87.16
+f1_macro: 86.09
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 72.44
+f1_macro: 69.43
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 84.87
+f1_macro: 83.67
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 82.95
+f1_macro: 81.38
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 85.58
+f1_macro: 84.37
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 87.32
+f1_macro: 86.31
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 85.33
+f1_macro: 83.94
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 85.19
+f1_macro: 83.79
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 84.76
+f1_macro: 83.25
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 81.38
+f1_macro: 79.23
+Duration SemEval17-test:        608s
+---------------------- FULL Dataset: SemEval18, (1859, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 67.56
+f1_macro: 67.25
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 71.0
+f1_macro: 70.49
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 76.22
+f1_macro: 75.94
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 60.14
+f1_macro: 58.68
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 78.16
+f1_macro: 77.94
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 74.34
+f1_macro: 74.14
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 80.58
+f1_macro: 80.42
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 78.05
+f1_macro: 77.78
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 76.17
+f1_macro: 75.9
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 78.16
+f1_macro: 77.9
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.02
+f1_macro: 78.75
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 80.42
+f1_macro: 79.92
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 77.84
+f1_macro: 77.57
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 74.77
+f1_macro: 74.33
+Duration SemEval18:        180s
+---------------------- FULL Dataset: SentiStrength, (2289, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 57.89
+f1_macro: 54.81
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 74.71
+f1_macro: 73.53
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 72.7
+f1_macro: 71.24
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 56.75
+f1_macro: 53.02
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 74.97
+f1_macro: 73.8
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 66.89
+f1_macro: 65.2
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 84.05
+f1_macro: 83.54
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 75.8
+f1_macro: 74.85
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 73.96
+f1_macro: 72.62
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 76.58
+f1_macro: 75.52
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 73.92
+f1_macro: 72.42
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 70.12
+f1_macro: 68.54
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 72.87
+f1_macro: 71.15
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 68.89
+f1_macro: 66.61
+Duration SentiStrength:        224s
+---------------------- FULL Dataset: Target-dependent, (3467, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 59.73
+f1_macro: 59.68
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 79.15
+f1_macro: 79.13
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 79.98
+f1_macro: 79.97
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 54.86
+f1_macro: 54.78
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 80.93
+f1_macro: 80.92
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 65.99
+f1_macro: 65.97
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 82.09
+f1_macro: 82.07
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 78.94
+f1_macro: 78.93
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 80.24
+f1_macro: 80.24
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 80.33
+f1_macro: 80.32
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 78.91
+f1_macro: 78.9
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 79.98
+f1_macro: 79.97
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 78.31
+f1_macro: 78.29
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 76.67
+f1_macro: 76.65
+Duration Target-dependent:        311s
+---------------------- FULL Dataset: VADER, (4196, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 67.87
+f1_macro: 54.36
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 83.53
+f1_macro: 79.41
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 83.13
+f1_macro: 78.77
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 66.35
+f1_macro: 52.05
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 85.51
+f1_macro: 81.87
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 75.48
+f1_macro: 68.73
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 86.49
+f1_macro: 83.81
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 85.87
+f1_macro: 82.68
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 84.03
+f1_macro: 79.96
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 85.7
+f1_macro: 82.16
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 84.08
+f1_macro: 79.45
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 81.63
+f1_macro: 75.91
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 81.7
+f1_macro: 76.04
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 77.5
+f1_macro: 69.48
+Duration VADER:        364s
+---------------------- FULL Dataset: archeage, (1718, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 75.32
+f1_macro: 74.07
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 83.88
+f1_macro: 83.24
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 82.71
+f1_macro: 82.06
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 71.19
+f1_macro: 69.87
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 85.62
+f1_macro: 85.08
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 75.96
+f1_macro: 74.79
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 83.7
+f1_macro: 83.04
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 83.35
+f1_macro: 82.61
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 84.17
+f1_macro: 83.7
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 84.34
+f1_macro: 83.75
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 84.75
+f1_macro: 84.25
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 83.99
+f1_macro: 83.56
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 82.71
+f1_macro: 82.02
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 83.53
+f1_macro: 82.88
+Duration archeage:        139s
+---------------------- FULL Dataset: debate08, (1906, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 72.46
+f1_macro: 69.2
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 75.44
+f1_macro: 72.16
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 80.38
+f1_macro: 77.75
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 61.23
+f1_macro: 51.87
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 79.12
+f1_macro: 76.48
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 73.29
+f1_macro: 69.71
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 75.97
+f1_macro: 73.11
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 76.08
+f1_macro: 73.29
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 77.7
+f1_macro: 74.75
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 80.59
+f1_macro: 78.38
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.9
+f1_macro: 77.31
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 75.5
+f1_macro: 72.54
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.64
+f1_macro: 76.7
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 79.33
+f1_macro: 76.33
+Duration debate08:        163s
+---------------------- FULL Dataset: hobbit, (522, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 70.88
+f1_macro: 63.87
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 88.31
+f1_macro: 86.16
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 85.04
+f1_macro: 81.82
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 66.47
+f1_macro: 55.64
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 81.6
+f1_macro: 77.25
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 67.81
+f1_macro: 58.76
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 88.12
+f1_macro: 86.11
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 87.53
+f1_macro: 85.4
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 90.99
+f1_macro: 89.31
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 82.96
+f1_macro: 79.57
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 86.97
+f1_macro: 84.46
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 92.71
+f1_macro: 91.77
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 87.73
+f1_macro: 85.24
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 84.86
+f1_macro: 81.74
+Duration hobbit:         58s
+---------------------- FULL Dataset: iphone, (532, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 72.54
+f1_macro: 62.89
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 80.64
+f1_macro: 74.83
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 81.38
+f1_macro: 75.1
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 71.61
+f1_macro: 61.49
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 81.0
+f1_macro: 75.54
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 73.3
+f1_macro: 65.77
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 84.77
+f1_macro: 80.94
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 80.63
+f1_macro: 74.78
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 79.5
+f1_macro: 73.28
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 79.13
+f1_macro: 73.42
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 78.96
+f1_macro: 71.69
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 73.3
+f1_macro: 65.9
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.32
+f1_macro: 72.64
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 79.32
+f1_macro: 72.56
+Duration iphone:         61s
+---------------------- FULL Dataset: irony, (65, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 65.0
+f1_macro: 53.85
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 59.52
+f1_macro: 46.16
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 67.62
+f1_macro: 54.98
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 55.95
+f1_macro: 48.96
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 58.57
+f1_macro: 42.49
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 55.0
+f1_macro: 43.94
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 74.05
+f1_macro: 65.82
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 64.52
+f1_macro: 49.3
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 61.9
+f1_macro: 46.16
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 72.38
+f1_macro: 63.3
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 55.24
+f1_macro: 41.13
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 42.38
+f1_macro: 30.21
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 61.43
+f1_macro: 46.58
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 69.29
+f1_macro: 53.85
+Duration irony:         19s
+---------------------- FULL Dataset: movie, (561, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 79.5
+f1_macro: 45.92
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 83.07
+f1_macro: 55.64
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 82.17
+f1_macro: 54.7
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 75.58
+f1_macro: 46.93
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 84.85
+f1_macro: 61.87
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 81.81
+f1_macro: 58.96
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 88.06
+f1_macro: 76.17
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 85.91
+f1_macro: 67.48
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 84.85
+f1_macro: 61.59
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 85.56
+f1_macro: 64.5
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 84.49
+f1_macro: 61.38
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 83.79
+f1_macro: 64.42
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 83.07
+f1_macro: 55.53
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 81.82
+f1_macro: 51.16
+Duration movie:         63s
+---------------------- FULL Dataset: ntua, (278, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 60.04
+f1_macro: 57.93
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 75.2
+f1_macro: 73.57
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 82.37
+f1_macro: 81.55
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 59.31
+f1_macro: 57.0
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 68.73
+f1_macro: 66.91
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 85.99
+f1_macro: 85.42
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 76.2
+f1_macro: 75.25
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 89.95
+f1_macro: 89.47
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 71.24
+f1_macro: 69.66
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 75.22
+f1_macro: 74.12
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 82.75
+f1_macro: 82.05
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 62.61
+f1_macro: 60.93
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 76.59
+f1_macro: 75.17
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 75.54
+f1_macro: 73.87
+Duration ntua:         44s
+---------------------- FULL Dataset: person, (439, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 67.66
+f1_macro: 51.29
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 76.08
+f1_macro: 66.93
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 79.27
+f1_macro: 71.55
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 62.17
+f1_macro: 46.98
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 78.82
+f1_macro: 71.29
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 72.21
+f1_macro: 61.52
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 78.6
+f1_macro: 72.98
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 77.24
+f1_macro: 68.76
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 79.5
+f1_macro: 72.1
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 77.21
+f1_macro: 68.33
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.95
+f1_macro: 72.51
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 73.57
+f1_macro: 66.27
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 73.58
+f1_macro: 60.54
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 70.62
+f1_macro: 54.26
+Duration person:         58s
+---------------------- FULL Dataset: sanders, (1224, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 65.28
+f1_macro: 64.94
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 75.97
+f1_macro: 75.72
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 79.33
+f1_macro: 79.12
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 55.47
+f1_macro: 55.0
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 79.81
+f1_macro: 79.6
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 72.38
+f1_macro: 72.03
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 81.21
+f1_macro: 81.04
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 81.61
+f1_macro: 81.39
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 80.06
+f1_macro: 79.84
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 80.71
+f1_macro: 80.51
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.65
+f1_macro: 79.38
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 77.86
+f1_macro: 77.56
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 79.5
+f1_macro: 79.19
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 76.15
+f1_macro: 75.79
+Duration sanders:        109s
+---------------------- FULL Dataset: sarcasm, (71, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 46.25
+f1_macro: 44.26
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 58.93
+f1_macro: 56.77
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 63.21
+f1_macro: 61.94
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 46.25
+f1_macro: 44.65
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 66.25
+f1_macro: 65.06
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 73.39
+f1_macro: 71.71
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 64.82
+f1_macro: 61.43
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 57.5
+f1_macro: 56.51
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 70.54
+f1_macro: 69.41
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 63.57
+f1_macro: 61.87
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 46.25
+f1_macro: 43.19
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 51.96
+f1_macro: 49.32
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 57.5
+f1_macro: 52.96
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 56.43
+f1_macro: 52.32
+Duration sarcasm:         21s
+---------------------- FULL Dataset: sentiment140, (359, 2)------------------
+
+######################### 
+
+
+Model: 
+ W2VEdin
+
+Cross Validation on XGboost
+
+accuracy: 57.65
+f1_macro: 56.96
+
+######################### 
+
+
+Model: 
+ W2VAraque
+
+Cross Validation on XGboost
+
+accuracy: 79.91
+f1_macro: 79.87
+
+######################### 
+
+
+Model: 
+ GloveWP
+
+Cross Validation on XGboost
+
+accuracy: 75.49
+f1_macro: 75.24
+
+######################### 
+
+
+Model: 
+ GloveTW
+
+Cross Validation on XGboost
+
+accuracy: 55.69
+f1_macro: 55.03
+
+######################### 
+
+
+Model: 
+ FastText
+
+Cross Validation on XGboost
+
+accuracy: 81.33
+f1_macro: 81.25
+
+######################### 
+
+
+Model: 
+ SSWE
+
+Cross Validation on XGboost
+
+accuracy: 70.22
+f1_macro: 69.98
+
+######################### 
+
+
+Model: 
+ Emo2Vec
+
+Cross Validation on XGboost
+
+accuracy: 83.56
+f1_macro: 83.47
+
+######################### 
+
+
+Model: 
+ DeepMoji
+
+Cross Validation on XGboost
+
+accuracy: 77.44
+f1_macro: 77.4
+
+######################### 
+
+
+Model: 
+ EWE
+
+Cross Validation on XGboost
+
+accuracy: 77.15
+f1_macro: 77.05
+
+######################### 
+
+
+Model: 
+ W2V-GN
+
+Cross Validation on XGboost
+
+accuracy: 80.49
+f1_macro: 80.43
+
+######################### 
+
+
+Model: 
+ Roberta: roberta-base / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 78.0
+f1_macro: 77.95
+
+######################### 
+
+
+Model: 
+ TFIDF
+
+Cross Validation on XGboost
+
+accuracy: 69.09
+f1_macro: 68.8
+
+######################### 
+
+
+Model: 
+ Bert: bert-base-uncased / STATIC_AVG
+
+Cross Validation on XGboost
+
+accuracy: 74.11
+f1_macro: 73.94
+
+######################### 
+
+
+Model: 
+ BERTweet_base_transformers_STATIC
+
+Cross Validation on XGboost
+
+accuracy: 67.68
+f1_macro: 67.55
+Duration sentiment140:         50s
+Pivot tables salvas!
