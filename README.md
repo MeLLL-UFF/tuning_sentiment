@@ -13,7 +13,7 @@ Official implementation of [Sentiment analysis in tweets: an assessment study fr
 
 ## Example usage:
 ```python
-
+```
 
 # Folders
 
