@@ -1,4 +1,4 @@
-# Language Model Adaptation for Tweets Sentiment Analysis in English
+# Language Model Representations for Sentiment Analysis in English Tweets
 Official implementation of [Sentiment analysis in tweets: an assessment study from classical to modern text representation models](https://arxiv.org/abs/2105.14373).
 
 # How to use :
