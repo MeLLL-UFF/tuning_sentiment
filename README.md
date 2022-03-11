@@ -37,5 +37,5 @@ If you use our models, or if they relate to your work, please cite:
 }
 
 # Acknowledgement
-
+We thank the Brazilian research Agencies CNPq and FAPERJ for partially fund this research.
 
